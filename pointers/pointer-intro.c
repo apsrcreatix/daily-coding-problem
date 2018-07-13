@@ -45,17 +45,26 @@ printf(" *pointer :%u\n", *pointer);
 void typeOfPointers(){
     int variable1;
     int variable2;
-    scanf("Enter the variable 1: %d",&variable1);
-    scanf("Enter the variable 2: %d",&variable2);
-    char* pointer1 = (char*)&variable1;
-    char* pointer2 = (char*)&variable2;
-    
-     
+    scanf("%d",&variable1);
+    scanf("%d",&variable2);
+    char* pointer1 = (char*) &variable1;
+    char* pointer2 = (char*) &variable2;
+    printf("Pointer 1 %u\n", pointer1);
+    printf("Pointer 2: %u\n", pointer2);
+    void *variable ; 
 }
 
+void newFunction(){
+    int variableOne=90;
+    char variableTwo =(char) variableOne;
+    printf("%c\n",variableTwo);
+    printf("%d\n",variableOne);
+    printf("\nhello");
+}
 int main(){
 // introduction();
 // arithmetic();
-
+// typeOfPointers();
+newFunction();
 return 0;
 }
