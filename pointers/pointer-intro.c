@@ -1,6 +1,6 @@
-#include "stdio.h"
-#include "stdlib.h"
-#include "string.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 // pointers in c
 
 // introduction to the pointers
@@ -65,6 +65,6 @@ int main(){
 // introduction();
 // arithmetic();
 // typeOfPointers();
-newFunction();
+// newFunction();
 return 0;
 }
