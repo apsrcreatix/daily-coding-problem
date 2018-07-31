@@ -1,8 +1,8 @@
 
 // External Libraries
-#include "stdio.h"
-#include "stdlib.h"
-#include "string.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 //c99 library for boolean operations
 // it defines a bool type as true = 1 and fasle = 0
 #include "stdbool.h" 
